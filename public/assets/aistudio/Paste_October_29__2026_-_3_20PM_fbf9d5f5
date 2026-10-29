@@ -1,0 +1,1264 @@
+PROJECT: NAUKRIX.IN — PREMIUM GOVERNMENT JOB FINDER PLATFORM
+
+Act as a senior full-stack engineer, UI/UX designer, database architect, SEO specialist, security engineer, and product manager.
+
+Build a complete, responsive, production-oriented government job discovery and exam information platform named Naukrix.
+
+The website will be deployed using GitHub + Vercel. The planned domain is naukrix.in.
+
+Do not build a generic job listing website. Build an intelligent job discovery platform where users enter their educational qualification, age, category, state, and skills to discover relevant government vacancies and understand exactly how to apply.
+
+The application must be designed for Indian students, government job aspirants, and candidates preparing for recruitment examinations.
+
+IMPORTANT BRAND SEPARATION:
+
+- Naukrix is a completely separate website and brand.
+- RajToolBox / RajDailyTools is a separate tools website.
+- Do not rename Naukrix to RajToolBox or RajDailyTools.
+- Add configurable external links to relevant RajToolBox tools where useful, such as photo resizing, signature resizing, image compression, and PDF conversion.
+- Do not duplicate existing tools unnecessarily.
+- Keep the Naukrix branding independent.
+
+==================================================
+
+1. BRAND IDENTITY AND DESIGN SYSTEM
+   ==================================================
+
+Brand name: Naukrix
+
+Primary domain: naukrix.in
+
+Tagline:
+"Your Qualification. Your Government Job."
+
+Hindi/Hinglish headline:
+"Apni Qualification ke Hisaab Se Sarkari Naukri Dhoondho!"
+
+Supporting text:
+"Find government jobs, check eligibility, track important dates, prepare documents, and understand the complete application process — all in one place."
+
+Create a premium, modern, trustworthy, student-friendly interface.
+
+DESIGN DIRECTION:
+
+- Primary color: Sky Blue.
+- Primary action color: Bright Blue.
+- Supporting colors: White, light blue, navy, and subtle cyan.
+- Use a very light blue background with white cards.
+- Use subtle blue gradients in hero sections.
+- Use rounded cards, soft shadows, clean borders, and modern icons.
+- Use accessible contrast and readable typography.
+- Use a modern font such as Inter or another high-quality, web-safe font.
+- Make the UI feel like a professional Indian technology startup.
+- Avoid excessive animations, clutter, and unnecessary gradients.
+- Use consistent spacing, typography, buttons, icons, and card styles.
+- Support mobile, tablet, laptop, and desktop layouts.
+- Use Lucide icons or another consistent icon library.
+- Include skeleton loaders, empty states, error messages, and success notifications.
+- Provide accessible focus states and keyboard navigation.
+
+The homepage design should closely follow this structure:
+
+A. TOP NAVIGATION
+
+- Naukrix logo.
+- Home.
+- Find My Jobs.
+- Latest Jobs.
+- Admit Card.
+- Results.
+- Syllabus.
+- Exam Pattern.
+- More dropdown.
+- Search icon.
+- Notification icon.
+- Login / Sign Up button.
+
+B. HERO SECTION
+Headline:
+"Apni Qualification ke Hisaab Se Sarkari Naukri Dhoondhna Ab Hua Super Easy!"
+
+Supporting description:
+"Find latest government jobs, check eligibility, important dates, form process, exam pattern and more — all in one place."
+
+Include:
+
+- A professional student illustration or suitable original hero artwork.
+- Light blue government-building-inspired background artwork.
+- A qualification-based job search form.
+- Trust-building information cards.
+- Quick links to popular job searches.
+
+C. QUICK SEARCH FORM
+Create four primary inputs:
+
+1. Qualification.
+2. Age.
+3. Category.
+4. State.
+
+Primary button:
+"Find My Jobs"
+
+Provide an advanced search option for:
+
+- Gender, where relevant.
+- Degree or subject.
+- Technical skills.
+- Preferred department.
+- Central or state government.
+- Job type.
+- Physical-test requirements.
+- Typing or computer requirements.
+
+D. POPULAR SEARCHES
+Display shortcuts such as:
+
+- 10th Pass Jobs.
+- 12th Pass Jobs.
+- Graduation Jobs.
+- Railway Jobs.
+- SSC Jobs.
+- Police Jobs.
+- State Government Jobs.
+- Central Government Jobs.
+
+E. CATEGORY CARDS
+Display:
+
+- All Jobs.
+- 10th Pass.
+- 12th Pass.
+- ITI.
+- Diploma.
+- Graduation.
+- Post Graduation.
+- Police.
+- Railway.
+- Teaching.
+- Defence.
+- State Government.
+- Central Government.
+
+F. LATEST GOVERNMENT JOBS
+Display premium recruitment cards with:
+
+- Recruitment name.
+- Recruiting organization.
+- Qualification.
+- Total vacancies.
+- State or location.
+- Application status.
+- Application deadline.
+- Days remaining.
+- View Details button.
+- Save Job button.
+
+G. IMPORTANT DATES
+Create a compact section showing:
+
+- Application deadlines.
+- Upcoming examinations.
+- Admit card updates.
+- Correction-window deadlines.
+- Result announcements.
+
+H. POPULAR FORM-FILLING TOOLS
+Display links to configured RajToolBox tools:
+
+- Photo Resizer.
+- Signature Resizer.
+- Image Compressor.
+- JPG to PDF.
+- PDF Compressor.
+
+I. PERSONALIZED JOB ALERTS
+Add a section encouraging users to create an account and receive relevant job alerts.
+
+IMPORTANT:
+Do not use fake vacancy numbers, fake testimonials, fake user counts, fake live updates, or fabricated recruitment dates. Any demo data must be explicitly labelled as sample data and must never be presented as a real current vacancy.
+
+==================================================
+2. CORE FEATURE: FIND MY JOBS
+
+Build a working job-matching feature.
+
+Allow users to enter:
+
+EDUCATION:
+
+- 10th Pass.
+- 12th Pass.
+- ITI.
+- Diploma.
+- Graduation.
+- Post Graduation.
+- Other qualifications.
+
+DEGREE / SUBJECT:
+
+- BA.
+- B.Com.
+- B.Sc.
+- B.Tech.
+- B.E.
+- BCA.
+- BBA.
+- B.Ed.
+- MA.
+- M.Com.
+- M.Sc.
+- MCA.
+- Other supported qualifications.
+
+PROFILE:
+
+- Date of birth or age.
+- Gender, where relevant.
+- Category: General, EWS, OBC, SC, ST.
+- State.
+- Domicile, where applicable.
+- Typing skills.
+- Computer qualifications.
+- Technical qualifications.
+- Driving licence, where applicable.
+- Other required skills.
+
+JOB PREFERENCES:
+
+- Central Government.
+- State Government.
+- Department.
+- Preferred location.
+- Qualification level.
+- Recruitment type.
+
+Add a clear "Find My Jobs" button.
+
+MATCHING LOGIC:
+
+- Compare user profile information against structured recruitment eligibility rules.
+- Check required qualification.
+- Check minimum and maximum age.
+- Apply age relaxation only when the official recruitment rules support it.
+- Check category-related conditions.
+- Check state, domicile, gender, technical qualifications, and other requirements when relevant.
+- Distinguish mandatory requirements from preferred qualifications.
+- Consider the application status and deadline.
+- Exclude closed vacancies from the default list of currently open application opportunities.
+
+Show three eligibility states:
+
+1. ELIGIBLE
+   The entered profile appears to satisfy the verified mandatory criteria.
+
+2. CHECK REQUIRED
+   Some eligibility information is missing, uncertain, or needs manual verification.
+
+3. NOT ELIGIBLE
+   At least one verified mandatory requirement is not satisfied.
+
+Explain why a vacancy matches or does not match the candidate.
+
+For example:
+"Your graduation qualification matches the education requirement. Please verify the age limit and category certificate conditions in the official notification."
+
+Never guarantee selection or claim that a candidate is officially eligible without adequate verified data.
+
+Always display:
+"Final eligibility is determined by the recruiting authority and the official notification."
+
+Allow users to edit their profile and rerun matching.
+
+==================================================
+3. LATEST JOBS AND RECRUITMENT DATABASE
+
+Build a complete recruitment listing system.
+
+Each vacancy must have a unique ID and structured fields.
+
+Suggested recruitment fields:
+
+- Recruitment ID.
+- Recruitment title.
+- Organization name.
+- Department.
+- Recruitment category.
+- Short description.
+- Detailed description.
+- Notification number.
+- Official notification PDF URL.
+- Official recruitment website.
+- Official application URL.
+- Publication date.
+- Application opening date.
+- Application deadline.
+- Fee payment deadline.
+- Correction-window start and end dates.
+- Admit card date.
+- Examination date.
+- Result date.
+- Minimum age.
+- Maximum age.
+- Age calculation reference date.
+- Educational qualifications.
+- Required subjects or degrees.
+- Required skills.
+- Category eligibility conditions.
+- Application fee.
+- Selection process.
+- Total vacancies.
+- State-wise vacancy data, when officially available.
+- Category-wise vacancy data, when officially available.
+- Gender-wise vacancy data, when officially available.
+- Physical-test requirements.
+- Exam pattern.
+- Negative marking.
+- Syllabus.
+- Documents required.
+- Step-by-step application guide.
+- FAQs.
+- Last verified date.
+- Verification status.
+- Recruitment status.
+- SEO title and description.
+
+RECRUITMENT STATUS:
+
+- Upcoming.
+- Applications Open.
+- Closing Today.
+- Closing Soon.
+- Application Closed.
+- Exam Date Announced.
+- Admit Card Released.
+- Result Declared.
+- Recruitment Completed.
+- Cancelled or Postponed, when officially confirmed.
+
+Use consistent status badges.
+
+Create filters for:
+
+- Qualification.
+- State.
+- Department.
+- Category.
+- Application status.
+- Deadline.
+- Job type.
+- Exam date.
+- Gender-specific requirements, where applicable.
+- Physical-test requirements.
+
+Add sorting by:
+
+- Latest published.
+- Deadline approaching.
+- Recently updated.
+- Qualification match.
+
+Include pagination or a well-implemented "Load More" option.
+
+==================================================
+4. IMPORTANT DATES AND LIVE COUNTDOWNS
+
+Create reusable countdown components.
+
+APPLICATION DEADLINE:
+
+- Show the exact official deadline.
+- Show days, hours, and minutes remaining when appropriate.
+- Show "Closing Today" when the deadline falls today.
+- Show "Application Closed" after the deadline.
+- Display a clear official application link.
+
+EXAM COUNTDOWN:
+
+- Display a countdown only when the examination date has been officially announced and verified.
+- If the exam date is unknown, display "Exam Date Not Announced".
+- If the examination is postponed, update the displayed status based on verified information.
+
+OTHER IMPORTANT DATES:
+
+- Registration opening.
+- Fee payment deadline.
+- Correction window.
+- Admit card release.
+- Examination.
+- Answer key.
+- Result.
+
+TIME HANDLING:
+
+- Use the Asia/Kolkata timezone for Indian recruitment dates.
+- Store dates in a consistent database format.
+- Handle date-only deadlines correctly.
+- Respect the exact deadline time stated in the official notification.
+- If the official deadline time is unknown, do not invent a time.
+- Update countdowns automatically in the browser without refreshing the page.
+
+Do not depend on manually typed countdown numbers.
+
+==================================================
+5. COMPLETE RECRUITMENT DETAILS PAGE
+
+Every recruitment must have a dedicated, shareable detail page.
+
+Use a professional layout with a clear title, status badge, important dates, and an Apply button.
+
+Include these sections:
+
+1. Recruitment Overview.
+2. Important Dates.
+3. Total Vacancy.
+4. Category-Wise Vacancy.
+5. State-Wise Vacancy.
+6. Eligibility Criteria.
+7. Age Limit.
+8. Age Relaxation.
+9. Application Fee.
+10. Required Documents.
+11. How to Apply.
+12. Exam Pattern.
+13. Negative Marking.
+14. Detailed Syllabus.
+15. Physical Test.
+16. Selection Process.
+17. Salary and Pay Level.
+18. Posting Location.
+19. Admit Card Updates.
+20. Result Updates.
+21. Official Notification.
+22. Official Application Link.
+23. Frequently Asked Questions.
+24. Related Recruitment.
+25. Last Verified Information.
+
+Display only information that applies to the recruitment.
+
+If a section has not been verified, clearly mark it as unavailable or awaiting confirmation instead of generating a guess.
+
+==================================================
+6. CATEGORY-WISE AND STATE-WISE VACANCIES
+
+Create dedicated sections for vacancy distribution.
+
+CATEGORY-WISE VACANCIES:
+
+- UR / General.
+- EWS.
+- OBC.
+- SC.
+- ST.
+- PwBD, when applicable.
+- Ex-servicemen, when applicable.
+- Other officially specified categories.
+
+STATE-WISE VACANCIES:
+
+- Madhya Pradesh.
+- Chhattisgarh.
+- Uttar Pradesh.
+- Bihar.
+- Rajasthan.
+- Maharashtra.
+- Delhi.
+- Other Indian states and union territories.
+
+For every recruitment, show the actual published distribution where available.
+
+Important rules:
+
+- Never invent category-wise counts.
+- Never assume that all vacancies have the same category distribution.
+- Distinguish horizontal and vertical reservation where the notification does so.
+- Explain when vacancy figures are provisional.
+- Reconcile displayed totals with the official notification.
+- If state-wise information is not provided, show "State-wise vacancy breakup not specified in the available notification."
+- Do not confuse posting locations with the locations from which candidates may apply.
+
+Use responsive tables and mobile-friendly layouts.
+
+==================================================
+7. DOCUMENT CHECKLIST
+
+Create a recruitment-specific document checklist.
+
+Possible documents:
+
+- Identity proof.
+- 10th certificate.
+- 12th certificate.
+- Graduation certificate.
+- Degree or diploma.
+- Category certificate.
+- EWS certificate.
+- Domicile certificate.
+- Passport-size photograph.
+- Signature image.
+- Valid email and mobile number.
+- Experience certificate, when required.
+- Technical qualification certificate.
+- PwBD certificate, when applicable.
+- Ex-servicemen documents, when applicable.
+- Other recruitment-specific documents.
+
+For each document, show:
+
+- Required or optional status.
+- Accepted format, when officially specified.
+- Size requirements, when officially specified.
+- Validity or issue-date conditions, when specified.
+- Official reference.
+
+Do not assume every document is required for every recruitment.
+
+Add an interactive checklist that users can tick off before starting the application.
+
+Allow logged-in users to save checklist progress.
+
+==================================================
+8. STEP-BY-STEP APPLICATION GUIDE
+
+Every recruitment detail page must contain a useful application guide.
+
+Suggested structure:
+
+Step 1: Read the official notification.
+Step 2: Open the official recruitment website.
+Step 3: Complete registration.
+Step 4: Verify mobile number and email, when required.
+Step 5: Enter personal information.
+Step 6: Enter educational qualifications.
+Step 7: Enter category and reservation details, if applicable.
+Step 8: Upload the required photograph, signature, and documents.
+Step 9: Pay the application fee, if required.
+Step 10: Review the complete application.
+Step 11: Submit the application on the official portal.
+Step 12: Download or save the confirmation page and application number.
+
+For every step, provide:
+
+- A clear explanation.
+- Relevant field names.
+- Common mistakes.
+- Helpful screenshots or illustrations, when available.
+- Official links where appropriate.
+
+Never claim that a user has submitted an application merely because they clicked an external link.
+
+Clearly distinguish:
+
+- "Official Application Website".
+- "Application Guide".
+- "Mark as Applied".
+
+The application guide must be based on the actual recruitment process, not a generic guide incorrectly presented as recruitment-specific.
+
+==================================================
+9. PHYSICAL TEST DETAILS
+
+For police, defence, forest guard, and other physical-test-based recruitment, add a dedicated physical-test section.
+
+Where officially applicable, display:
+
+- Male height requirements.
+- Female height requirements.
+- Chest measurements.
+- Running distance.
+- Running time.
+- Long jump.
+- High jump.
+- Physical Standard Test (PST).
+- Physical Efficiency Test (PET).
+- Medical examination.
+- Category or regional relaxations.
+- Other physical requirements.
+
+Rules:
+
+- Follow the exact recruitment notification.
+- Distinguish qualifying tests from scored tests.
+- Show unit measurements clearly.
+- Do not apply one department's standards to another department.
+- If no physical test is required, explicitly display "No physical test specified for this recruitment."
+
+==================================================
+10. EXAM PATTERN, NEGATIVE MARKING, AND SYLLABUS
+
+Build a detailed examination information system.
+
+EXAM PATTERN:
+
+- Examination stages.
+- Examination mode.
+- Number of questions.
+- Total marks.
+- Duration.
+- Section-wise questions.
+- Section-wise marks.
+- Sectional timing.
+- Language options.
+- Qualifying marks, where officially specified.
+- Skill test or typing test.
+- Interview, where applicable.
+- Document verification.
+- Medical examination.
+
+NEGATIVE MARKING:
+Display one of the following:
+
+- Negative marking applies.
+- No negative marking.
+- Negative marking not specified in the available official information.
+
+When applicable, show the exact penalty for an incorrect answer.
+
+Do not assume that every exam deducts one-quarter or one-third marks.
+
+SYLLABUS:
+Organize topics by subject and section.
+
+Possible subjects:
+
+- General Awareness.
+- General Knowledge.
+- Reasoning.
+- Mathematics.
+- Quantitative Aptitude.
+- English.
+- Hindi.
+- Computer Knowledge.
+- General Science.
+- Subject-specific topics.
+
+Only include subjects and topics supported by the relevant official syllabus or reliable verified sources.
+
+Provide:
+
+- Topic-wise syllabus.
+- Official syllabus PDF, when available.
+- Preparation guidance.
+- Related practice resources, if available.
+
+==================================================
+11. USER ACCOUNTS AND AUTHENTICATION
+
+Implement secure user accounts using Supabase Auth or another compatible managed authentication service.
+
+Preferred approach:
+
+- Supabase Authentication.
+- Supabase PostgreSQL database.
+- Supabase Row Level Security (RLS).
+
+Users should be able to:
+
+- Register.
+- Log in.
+- Log out.
+- Recover their password.
+- Verify their email, where configured.
+- Edit their profile.
+- Set their job preferences.
+- Save jobs.
+- Track application status.
+- Save document-checklist progress.
+- Manage notification preferences.
+
+Use a secure, accessible authentication flow.
+
+Do not store plaintext passwords.
+
+Do not expose service-role keys or privileged secrets in frontend code.
+
+Do not hardcode authentication tokens.
+
+Clearly handle loading states, validation errors, expired sessions, and network failures.
+
+==================================================
+12. MY JOBS DASHBOARD
+
+Create a personal dashboard for logged-in users.
+
+Include these sections:
+
+- Saved Jobs.
+- To Apply.
+- Applied Jobs.
+- Admit Card Awaited.
+- Upcoming Exams.
+- Results Awaited.
+- Completed Applications.
+
+Each saved recruitment should show:
+
+- Recruitment name.
+- Last date.
+- Exam date, if announced.
+- Current recruitment status.
+- User-selected application status.
+- Notes, if supported.
+- Remove from saved jobs.
+- Open recruitment details.
+
+Allow users to mark a recruitment as:
+
+- Interested.
+- Need to Apply.
+- Applied.
+- Admit Card Awaited.
+- Exam Completed.
+- Result Awaited.
+- Completed.
+
+IMPORTANT:
+These statuses represent the user's own tracking information. Do not represent them as official application verification.
+
+Save user-specific data in the database and protect it with appropriate Row Level Security.
+
+Users must not be able to access another user's private records.
+
+==================================================
+13. PERSONALIZED JOB NOTIFICATIONS
+
+Allow users to subscribe to job alerts based on:
+
+- Qualification.
+- Degree or subject.
+- State.
+- Category, where relevant.
+- Department.
+- Central or state government.
+- Selected job preferences.
+
+Support:
+
+- In-app notifications.
+- Email notifications, when an email delivery provider has been configured.
+- Browser push notifications as a later enhancement.
+
+Notification types:
+
+- New matching vacancy.
+- Application deadline approaching.
+- Deadline today.
+- Exam date announced.
+- Exam date changed.
+- Admit card released.
+- Result announced.
+- Official notification updated.
+
+Notification rules:
+
+- Respect user preferences.
+- Provide opt-in and unsubscribe controls.
+- Avoid duplicate notifications.
+- Do not promise email delivery until the delivery service is configured and tested.
+- Do not send fabricated alerts.
+- Use verified recruitment information.
+
+Design the system so a scheduled backend job can send reminders without depending on a user's browser remaining open.
+
+==================================================
+14. ADMIN PANEL
+
+Build a secure, separate admin dashboard.
+
+Admin features:
+
+- Create recruitment.
+- Edit recruitment.
+- Publish recruitment.
+- Unpublish recruitment.
+- Archive recruitment.
+- Mark recruitment as verified.
+- Update deadlines.
+- Update examination dates.
+- Upload or reference official notification PDFs.
+- Add official links.
+- Manage category-wise vacancies.
+- Manage state-wise vacancies.
+- Manage exam patterns.
+- Manage syllabus.
+- Manage physical standards.
+- Manage document checklists.
+- Manage application guides.
+- Manage FAQs.
+- Review content status.
+- View last verified dates.
+- Preview recruitment pages.
+- Manage SEO fields.
+- View basic platform statistics.
+
+RECRUITMENT WORKFLOW:
+Draft → Review Required → Verified → Published → Updated or Archived.
+
+Require a deliberate verification step before publishing important recruitment information.
+
+SECURITY:
+
+- Never use a hidden frontend button as the only admin security measure.
+- Use server-side authorization and database policies.
+- Restrict privileged operations to authorized administrators.
+- Protect admin routes.
+- Never expose admin secrets in public JavaScript.
+- Ensure that unauthorized users cannot publish or modify recruitment data.
+
+If external services are not configured, implement the interface and document the required configuration rather than pretending the feature works.
+
+==================================================
+15. OFFICIAL DATA AND VERIFICATION SYSTEM
+
+Accuracy is essential.
+
+Use official recruitment authorities as the primary sources for:
+
+- Notifications.
+- Eligibility.
+- Vacancies.
+- Category distribution.
+- Important dates.
+- Application links.
+- Exam patterns.
+- Negative marking.
+- Syllabus.
+- Physical requirements.
+- Admit cards.
+- Results.
+
+Add source fields for every important recruitment record:
+
+- Official source URL.
+- Notification PDF URL.
+- Source publication date, when known.
+- Last checked date.
+- Verification status.
+- Internal admin notes.
+
+AI-assisted PDF extraction may be used to help administrators draft structured recruitment data.
+
+However:
+
+- AI extraction must not be treated as automatic verification.
+- Require human review of important extracted information.
+- Never fabricate missing details.
+- Preserve source references.
+- Flag conflicting dates or vacancy counts for review.
+- Mark outdated or unverified information clearly.
+
+Do not scrape websites in violation of their terms or access controls.
+
+Do not claim to have real-time official data unless an actual working data-update process exists.
+
+Create a clean admin workflow for manually adding and updating recruitment information first. Automated data ingestion can be added later.
+
+==================================================
+16. SEARCH ENGINE OPTIMIZATION
+
+Build SEO-friendly public recruitment pages.
+
+Requirements:
+
+- Unique page title.
+- Unique meta description.
+- Canonical URL.
+- Clean, readable URL slugs.
+- Correct heading hierarchy.
+- Descriptive internal links.
+- Breadcrumb navigation.
+- Open Graph metadata.
+- Social sharing metadata.
+- Descriptive image alt text.
+- XML sitemap.
+- robots.txt.
+- Custom 404 page.
+- Fast-loading pages.
+- Mobile-friendly content.
+- Server-rendered or prerendered public recruitment pages where practical.
+- Correct handling of expired vacancies.
+
+Use descriptive URLs such as:
+
+- /jobs/ssc-recruitment-example
+- /latest-jobs
+- /admit-card
+- /results
+- /syllabus/example-exam
+- /exam-pattern/example-exam
+- /state-jobs/madhya-pradesh
+
+Do not create thousands of thin, empty, duplicate, or automatically generated pages.
+
+Do not publish fake recruitment information for SEO.
+
+Use structured data only when the page genuinely meets the relevant search engine requirements. Do not add misleading ratings, reviews, or unsupported job-posting metadata.
+
+Expired recruitment pages should preserve useful historical information and clearly show that applications are closed.
+
+==================================================
+17. TECHNOLOGY STACK
+
+Use a maintainable modern stack compatible with GitHub and Vercel.
+
+Preferred stack:
+
+- React.
+- TypeScript.
+- Vite for the frontend.
+- Tailwind CSS or a consistent modern styling system.
+- React Router.
+- Lucide React icons.
+- Supabase Authentication.
+- Supabase PostgreSQL.
+- Supabase Row Level Security.
+- Vercel deployment.
+
+Choose additional libraries only when they solve a clear need.
+
+Use a suitable server-side architecture for privileged operations, scheduled notifications, and secure integrations.
+
+Do not expose private keys in frontend environment variables.
+
+Create:
+
+- .env.example with placeholder values only.
+- README.md.
+- Supabase schema and migration files.
+- Database security policies.
+- Seed scripts for clearly labelled demo records.
+- Vercel deployment instructions.
+- GitHub setup instructions.
+
+Use reusable components and a clear folder structure.
+
+Suggested structure:
+
+src/
+components/
+pages/
+layouts/
+features/
+jobs/
+eligibility/
+dates/
+applications/
+notifications/
+authentication/
+admin/
+hooks/
+lib/
+services/
+types/
+utils/
+styles/
+
+supabase/
+migrations/
+seed.sql
+
+public/
+assets/
+robots.txt/
+
+The final structure may vary if another arrangement improves maintainability.
+
+==================================================
+18. PERFORMANCE AND MOBILE EXPERIENCE
+
+The website must work smoothly on low-end Android phones and slower internet connections.
+
+Requirements:
+
+- Responsive layouts.
+- Lazy-load below-the-fold images.
+- Optimize image sizes.
+- Avoid unnecessarily large JavaScript bundles.
+- Use pagination for long vacancy lists.
+- Minimize unnecessary database queries.
+- Provide loading skeletons.
+- Provide useful empty states.
+- Avoid layout shifts.
+- Support keyboard navigation.
+- Use readable font sizes.
+- Make important dates easy to read.
+- Keep application buttons easy to tap.
+- Use accessible labels for forms and icons.
+
+Create a mobile navigation bar with:
+
+- Home.
+- Find Jobs.
+- Latest Jobs.
+- Results.
+- My Jobs.
+
+The desktop layout can display additional navigation links.
+
+==================================================
+19. REQUIRED PAGES
+
+Create these pages:
+
+PUBLIC PAGES:
+
+1. Home.
+2. Find My Jobs.
+3. Latest Jobs.
+4. Job Search Results.
+5. Job Category.
+6. State-Wise Jobs.
+7. Department-Wise Jobs.
+8. Recruitment Detail.
+9. Admit Cards.
+10. Results.
+11. Syllabus.
+12. Exam Pattern.
+13. Document Preparation Guide.
+14. How to Apply.
+15. About Us.
+16. Contact Us.
+17. Privacy Policy.
+18. Terms and Conditions.
+19. Disclaimer.
+20. Cookie or consent settings, where applicable.
+21. Custom 404 page.
+
+USER PAGES:
+22. Login.
+23. Registration.
+24. Password Recovery.
+25. My Profile.
+26. My Jobs.
+27. My Notifications.
+28. Job Alert Preferences.
+29. Application Tracker.
+
+ADMIN PAGES:
+30. Admin Login.
+31. Admin Dashboard.
+32. Recruitment Management.
+33. Recruitment Editor.
+34. Verification Queue.
+35. Category and State Vacancy Editor.
+36. Exam Pattern and Syllabus Editor.
+37. Notification Management.
+38. SEO Editor.
+39. Site Settings.
+
+Do not create empty placeholder pages that look finished but do nothing.
+
+Where a feature depends on a service that has not been configured, explain what is missing and provide a proper setup path.
+
+==================================================
+20. FOOTER AND TRUST
+
+Create a professional footer with:
+
+- Naukrix logo.
+- Short platform description.
+- Latest Jobs.
+- Find My Jobs.
+- Admit Cards.
+- Results.
+- Syllabus.
+- About Us.
+- Contact Us.
+- Privacy Policy.
+- Terms and Conditions.
+- Disclaimer.
+
+Display a clear disclaimer:
+
+"Naukrix is an independent job-information platform and is not affiliated with any government department unless explicitly stated. Candidates should verify recruitment information and eligibility through the relevant official notification and recruitment authority."
+
+Do not use government logos in a way that implies official affiliation.
+
+Do not falsely claim that Naukrix is an official government website.
+
+==================================================
+21. REQUIRED INTERACTIONS AND QUALITY
+
+Every visible button must have a meaningful action.
+
+Examples:
+
+- Find My Jobs opens and processes the search form.
+- View Details opens the correct recruitment page.
+- Save Job stores the recruitment for the logged-in user.
+- Login opens the authentication page.
+- Notification opens the notification center.
+- Search performs a real search.
+- Filters update results.
+- Countdown uses the actual deadline.
+- Official Apply opens the configured official URL.
+- Mark as Applied updates the user's personal tracker.
+- Profile preferences save correctly.
+- Admin Save persists recruitment changes to the database.
+- Publish follows the verification workflow.
+
+Implement:
+
+- Form validation.
+- Error handling.
+- Loading states.
+- Success messages.
+- Empty states.
+- Responsive behavior.
+- Authentication guards.
+- Authorization checks.
+- Safe external links.
+- Basic automated tests for important eligibility and date calculations.
+
+Do not use fake buttons or interactions that only change visual appearance.
+
+Do not hardcode sample vacancies into the production interface as if they are current recruitment announcements.
+
+Clearly separate demo data from verified published data.
+
+==================================================
+22. IMPLEMENTATION PLAN
+
+Build the project in manageable phases.
+
+PHASE 1 — FOUNDATION:
+
+- Project setup.
+- Design system.
+- Responsive navigation.
+- Homepage.
+- Search interface.
+- Latest jobs.
+- Recruitment detail page.
+- Important date countdown.
+- Responsive job filters.
+- Public SEO structure.
+
+PHASE 2 — DATABASE AND ADMIN:
+
+- Supabase configuration.
+- Recruitment schema.
+- Authentication.
+- Admin authorization.
+- Recruitment editor.
+- Verification workflow.
+- Secure database policies.
+
+PHASE 3 — PERSONALIZATION:
+
+- User profile.
+- Eligibility matching.
+- Saved jobs.
+- Application tracker.
+- Document checklist.
+- Job preferences.
+
+PHASE 4 — EXAM INFORMATION:
+
+- Category-wise vacancies.
+- State-wise vacancies.
+- Exam pattern.
+- Negative marking.
+- Syllabus.
+- Physical standards.
+- Step-by-step application guides.
+
+PHASE 5 — NOTIFICATIONS AND LAUNCH:
+
+- In-app notifications.
+- Email service integration.
+- Deadline reminders.
+- SEO checks.
+- Security checks.
+- Performance optimization.
+- Deployment and testing.
+
+Do not stop after creating a visual mockup.
+
+Build working features in the appropriate order and maintainable code.
+
+==================================================
+23. HOW YOU MUST WORK IN GOOGLE AI STUDIO
+
+First inspect the available development environment and determine whether a project already exists.
+
+If no project exists:
+
+- Create the complete initial project structure.
+- Implement the application with the chosen stack.
+- Include all necessary configuration files.
+- Provide clear setup instructions.
+
+If a project already exists:
+
+- Inspect the current files.
+- Preserve useful existing work.
+- Avoid unnecessarily replacing the entire application.
+- Implement the requested functionality incrementally.
+
+Do not claim that the website is connected to Supabase, deployed, or fully functional unless the configuration and implementation are actually complete.
+
+If you cannot complete everything in one generation:
+
+- Prioritize the working foundation.
+- Clearly list completed features.
+- Clearly list incomplete features.
+- Continue from the existing project in subsequent steps.
+- Never silently replace working functionality with fake placeholders.
+
+Provide complete file contents or make the changes directly in the available coding workspace.
+
+Avoid giving only isolated code snippets when a complete implementation is required.
+
+==================================================
+24. FINAL ACCEPTANCE CHECKLIST
+
+Before declaring the project ready, verify:
+
+1. Homepage matches the Naukrix sky-blue design direction.
+2. Navigation works.
+3. Search form validates input.
+4. Job filters work with available data.
+5. Recruitment details load correctly.
+6. Countdown calculations are correct.
+7. Unknown exam dates are not fabricated.
+8. Eligibility rules can handle missing information.
+9. Saved jobs are persisted for authenticated users.
+10. User data is protected.
+11. Admin routes are protected.
+12. Recruitment updates persist in the database.
+13. Unverified recruitment information cannot be mistaken for verified data.
+14. Official links work.
+15. Application tracker works.
+16. Document checklist works.
+17. Mobile navigation works.
+18. Public pages have appropriate SEO metadata.
+19. Error and empty states are handled.
+20. The project builds successfully.
+21. No private credentials are committed to GitHub.
+22. Vercel deployment instructions are complete.
+
+FINAL PRODUCT VISION:
+
+Naukrix should help an Indian student answer these questions quickly:
+
+- Which government jobs match my qualification?
+- Am I likely to meet the eligibility requirements?
+- How many vacancies are available?
+- How many seats are available for my category, when published?
+- Which states or locations have vacancies?
+- When does the application close?
+- When is the examination?
+- Which documents should I prepare?
+- How do I fill out the application?
+- What is the exam pattern?
+- Is there negative marking?
+- What is the syllabus?
+- What physical standards apply?
+- Which jobs have I saved or applied for?
+- How can I receive relevant vacancy updates?
+
+Create a trustworthy, accurate, accessible, modern, and scalable platform that answers these questions in one place.
+
+Begin by implementing the foundation and inspecting the available project environment. Then build and verify the features systematically.

@@ -1,0 +1,6 @@
+{
+  "name": "Naukrix — Government Job Finder & Exam Preparation Platform",
+  "description": "Find latest government jobs in India based on qualification, age, category, and state. Check eligibility, track important dates, countdowns, exam patterns, and syllabus.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
